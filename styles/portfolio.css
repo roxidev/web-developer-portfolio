@@ -1,0 +1,46 @@
+/* share common st7le */
+body {
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Open Sans', sans-serif;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+.btn-primary {
+  background-color: #fd6e0a;
+  border-radius: 4px;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+
+/* nav related css file */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
